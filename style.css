@@ -1,0 +1,27 @@
+}
+h1 {
+    animation: color-change 10s infinite;
+    color: #5fe048; /* A cor do cabeçalho */
+    cursor:grab; /* Define o cursor como uma mãozinha */
+    border: 2px solid #37ff00; /* Define as bordas do bloco */
+    font-size: 48px; /* A cor da fonte do cabeçalho */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* A font usada no cabeçalho*/
+}
+h2 {
+    color: #03e14d; /* A cor do cabeçalho */
+    border: 2px solid #37ff00; /* Define as bordas do bloco */
+    font-size: 24px; /* A cor da fonte do cabeçalho */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* A font usada no cabeçalho*/
+}
+h3 {
+    color: #07d53b; /* A cor do cabeçalho */
+    border: 2px solid #37ff00; /* Define as bordas do bloco */
+    font-size: 24px; /* A cor da fonte do cabeçalho */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* A font usada no cabeçalho*/
+}
+
+@keyframes color-change {
+  0%   { color: rgb(17, 174, 64); }
+  50%  { color: rgb(6, 132, 90); }
+  100% { color: rgb(13, 255, 0); }
+}
